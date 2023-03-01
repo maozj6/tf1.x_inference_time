@@ -129,6 +129,6 @@ if __name__ == '__main__':
     for i in range(len(test)):
         out = model(test[i])
     total=time.time()-time2
-    print("warm-up time is "+str(total))
+    print("total time is "+str(total))
     print("average time is "+str(total/200)+" per inference")
     print("end")
